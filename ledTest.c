@@ -14,7 +14,7 @@ int main (void)
 		if (getAlt(i) == OUTPUT) {
 			printf("Testing pin.\n");
 			digitalWrite(i, LOW); //on
-			delay(500);
+			delay(750);
 			digitalWrite(i, HIGH); //off
 		}
 	}
