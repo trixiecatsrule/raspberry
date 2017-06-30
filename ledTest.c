@@ -12,7 +12,10 @@ int main (void)
 
 	for(i = 0; i < 40; i++) {
 		if (getAlt(i) == OUTPUT) {
-			digitalWrite(i, HIGH);
+			printf("Testing pin.\n");
+			digitalWrite(i, LOW); //on
+			delay(500);
+			digitalWrite(i, HIGH); //off
 		}
 	}
 
